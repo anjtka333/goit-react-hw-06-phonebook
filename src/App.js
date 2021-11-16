@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import ContactForm from "./components/ContactForm/ContactForm";
 import ContactList from "./components/ContactList/ContactList";
 import Filter from "./components/Filter/Filter";
 import s from "./components/ContactForm/ContactForm.module.scss";
-import { connect, useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import {
   delContact,
   putFilter,
